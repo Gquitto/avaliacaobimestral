@@ -1,0 +1,119 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arimo', sans-serif !important;
+    background: #e0e0e0;
+}
+
+header {
+    background: rgb(121, 182, 252);
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.container-fluid {
+    margin: 0 8%;
+    padding: 10px;
+    display: flex;
+}
+
+.ad-banner {
+    background: grey;
+    height: 120px;
+    width: 80%;
+    margin: 0 auto;
+    color: black;
+}
+
+.login {
+    min-width: 120px;
+}
+
+.menu-button {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.menu-button button {
+    background: transparent;
+    border-color: transparent;
+    color: white;
+    font-size: 16px;
+    font-family: 'Arimo';
+    cursor: pointer;
+}
+
+.menu-button a {
+    text-decoration: none;
+}
+
+.menu-button a:active {
+    text-decoration: none;
+    border-style: none;
+}
+
+.menu-button button:focus {
+    outline: none;
+}
+
+.menu-button img {
+    vertical-align: baseline;
+}
+
+.menu-button input {
+    background: transparent;
+    border-color: transparent;
+    color: white;
+    margin: 0 5px;
+    border-bottom: 1px solid white;
+}
+
+.menu-button input:focus {
+    outline: none;
+}
+
+.menu-button input::placeholder {
+    color: white;
+}
+
+.card {
+    background: white;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.card-content {
+    text-align: start;
+}
+
+.books-list {
+    border: 2px solid rgb(121, 182, 252);
+    border-radius: 20px;
+    min-height: 500px;
+}
+
+.about-content {
+    width: 100%;
+    padding: 0 40px;
+}
+
+.about-content .map {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footer {
+    margin: 10px 20px;
+}
+
+.footer-text {
+    float: right;
+    display: block;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
